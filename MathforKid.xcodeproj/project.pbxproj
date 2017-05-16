@@ -12,6 +12,11 @@
 		E28936921EB085B5009989F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28936901EB085B5009989F3 /* Main.storyboard */; };
 		E28936941EB085B5009989F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28936931EB085B5009989F3 /* Assets.xcassets */; };
 		E28936971EB085B5009989F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28936951EB085B5009989F3 /* LaunchScreen.storyboard */; };
+		E2E39F801EB1E7000069B452 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E39F7B1EB1E7000069B452 /* board.png */; };
+		E2E39F811EB1E7000069B452 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2E39F7C1EB1E7000069B452 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		E2E39F821EB1E7000069B452 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E39F7D1EB1E7000069B452 /* note1.png */; };
+		E2E39F831EB1E7000069B452 /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E39F7E1EB1E7000069B452 /* note2.png */; };
+		E2E39F841EB1E7000069B452 /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E39F7F1EB1E7000069B452 /* note3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E28936931EB085B5009989F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28936961EB085B5009989F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E28936981EB085B5009989F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E39F7B1EB1E7000069B452 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		E2E39F7C1EB1E7000069B452 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		E2E39F7D1EB1E7000069B452 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		E2E39F7E1EB1E7000069B452 /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		E2E39F7F1EB1E7000069B452 /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				E289368C1EB085B5009989F3 /* AppDelegate.swift */,
+				E2E39F7B1EB1E7000069B452 /* board.png */,
+				E2E39F7C1EB1E7000069B452 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				E2E39F7D1EB1E7000069B452 /* note1.png */,
+				E2E39F7E1EB1E7000069B452 /* note2.png */,
+				E2E39F7F1EB1E7000069B452 /* note3.png */,
 				E289368E1EB085B5009989F3 /* ViewController.swift */,
 				E28936901EB085B5009989F3 /* Main.storyboard */,
 				E28936931EB085B5009989F3 /* Assets.xcassets */,
@@ -123,9 +138,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E39F801EB1E7000069B452 /* board.png in Resources */,
 				E28936971EB085B5009989F3 /* LaunchScreen.storyboard in Resources */,
 				E28936941EB085B5009989F3 /* Assets.xcassets in Resources */,
+				E2E39F831EB1E7000069B452 /* note2.png in Resources */,
+				E2E39F821EB1E7000069B452 /* note1.png in Resources */,
+				E2E39F841EB1E7000069B452 /* note3.png in Resources */,
 				E28936921EB085B5009989F3 /* Main.storyboard in Resources */,
+				E2E39F811EB1E7000069B452 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +317,7 @@
 				E289369D1EB085B5009989F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
